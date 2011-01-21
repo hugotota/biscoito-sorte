@@ -1,0 +1,300 @@
+* {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	list-style: none;
+	text-decoration: none;
+	text-transform: none;
+}
+
+body{
+	font-family: "Trebuchet MS",Arial,Helvetica,sans-serif;
+	font-size: 12px;
+}
+
+.main {
+	/* Colocar imagem ou cor de fundo */
+}                                                    
+
+#top {
+	width: 960px;
+	margin: 0 auto;
+}
+
+.promotion {
+	float: right;
+	margin: 10px 0 0 0;
+}  
+
+.promotion a {
+	font-size: 14px;
+	font-weight: bold;
+	color: #2E444E;
+}
+
+#form {        
+	float: right;
+	margin: 40px 0 0 20px;
+
+}   
+
+#form ul li {
+	float: left;
+	padding: 5px;
+}
+
+#form ul li label {
+	padding: 5px;  
+	font-size: 18px;
+	font-weight: bold;
+	color: #2E444E;
+}
+
+#form ul li input {
+	font-size: 20px;
+	border: 1px solid #2E444E;
+	font-weight: bold;
+	color: #2E444E;
+}
+
+#form ul li input[type=submit] {
+	font-size: 18px;
+}
+
+.container {
+	width: 960px;
+	margin: 0 auto;
+}
+
+#logo {
+	height: 118px;
+	width: 214px;
+	float: left;	
+}
+
+#logo h1 {
+	text-indent: -9999px;
+}
+
+#navigation-all { 
+	background-color: #2E444E;
+	height: 40px;
+}
+
+#navigation {            
+	width: 960px;
+	margin: 0 auto;
+}
+
+#menu {
+	padding: 10px 0;
+	float: left;
+}
+
+#menu li {
+	display: inline;
+	padding: 0 30px 0 0;	
+}
+
+#menu li a {
+	color: #FFF;
+	font-size: 16px;
+}
+
+#user {
+	padding: 10px 0;
+	float: right;
+}
+
+#user li {
+	display: inline;
+	padding: 0 30px 0 0;	
+}
+
+#user li a {
+	color: #FFF;
+	font-size: 16px;
+}      
+
+#day-offer {
+	float: left;
+	width: 700px;
+	padding: 0 0 20px 0;
+}
+
+#day-offer-title {
+	float: right;
+	width: 450px;
+	margin: 20px 20px 0 0;
+}
+
+#day-offer-title h1 {
+	font-size: 22px;
+	color: #00ACF4;
+	display: inline;
+}
+
+#day-offer-title span {
+	font-size: 20px;
+    color: #58585A;
+	display: inline;
+}
+
+.day-offer-left {
+	float: left;
+}
+
+#day-offer img {
+	float: right; 
+	margin: 20px 20px 0 0;
+}
+
+#information {
+	float: right;
+	width: 450px;
+}
+
+#destak { 
+	float: left; 
+	width: 225px;
+}
+
+#destak h2 {
+	padding: 10px 0 15px;
+	color: #B51026;
+}
+
+#destak ul {
+	padding-left: 20px;
+}
+
+#destak ul li {
+	list-style: disc outside none;
+}
+
+#offers {
+	float: right;
+	width: 225px;
+}
+
+#offers h2 {
+	padding: 10px 0 15px;
+	color: #B51026;
+}
+
+#offers ul {
+	padding-left: 20px;
+}
+
+#offers ul li {
+	list-style: disc outside none;
+}
+
+#other-offers {
+	width: 260px;
+	float: right;
+}
+
+.offer {
+	margin: 0 auto;
+	width: 220px;
+	background-color: #5A7640;
+	color: #FFF;
+	-moz-border-radius: 8px;
+	-webkit-border-radius: 8px;
+}
+
+.offer h1 {
+	text-align: center;
+	font-size: 18px;
+	margin-top: 20px;
+	padding: 7px;
+	background-color: #2E444E;
+	-moz-border-radius: 8px 8px 0 0;
+	-webkit-border-radius: 8px 8px 0 0;   
+}
+
+.offer img { 
+	float: left;
+	padding: 5px;
+}
+
+.offer span { 
+	display: block;
+	text-align: center;
+	padding: 10px;
+	font-size: 20px; 
+	margin-top: 20px;
+}
+
+.offer div.old-price {
+	float: left;
+	margin: 5px 0 0 0;
+	height: 33px;
+	width: 80px;
+}
+
+.offer div.new-price { 
+	float: left;
+	margin: 0 0 10px 0;
+	height: 33px;
+	width: 80px;
+	color: #E24E1C;
+	font-size: 18px;
+}
+
+.offer a {
+	text-decoration: none; 
+	color: #FFF;
+	display: block; 
+	padding: 0 5px 3px;
+}
+
+#bottom {
+	background-color: #2E444E;   
+	height: 90px;
+}
+
+#bottom-up {
+	margin: 0 auto;
+	width: 960px;
+}
+
+#bottom-down {
+	margin: 0 auto;
+	width: 960px;	
+}
+
+#bottom-down img {
+	float: left;  
+	margin-top: 8.5px;
+}
+
+#bottom-down small {
+	display: block;
+	float: left;
+	margin: 15px 0 0 15px;
+	color: #FFF;
+}   
+
+.bottom-menu {
+	width: 800px;
+	float: left;
+	margin: 10px 0 0 10px;
+}
+
+.bottom-menu ul li {
+	display: inline;     
+	padding: 0 7px;
+	border-right: 2px solid #FFF;
+}          
+
+.bottom-menu ul li a {
+	color: #FFF;
+	font-size: 13px;
+	margin: 14px 0 0;
+} 
+
+.noborder {
+	border: 0 none !important;
+}
